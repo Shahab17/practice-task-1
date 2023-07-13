@@ -31,11 +31,13 @@
     background:rgba(146, 104, 26, 0.836);
     border-radius: 7px;
     border: 0;
+    color: white;
     
 }
 .banner-btn:hover{
     background-color: aqua;
     cursor:grab;
+    color: black;
 }
 /* main section styles */
 .container{
@@ -58,4 +60,48 @@
     font-family: 'Courier New', Courier, monospace;
     color: #474747;
     text-align: justify;
+}
+/* my plan section styles */
+ 
+.plan-title{
+    text-align: center;
+    font-size: 45px;
+    font-family: monospace;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    padding: 110px 130px;
+    
+}
+.items-row{
+    text-align: center;
+}
+.row-title{
+    font-size: 26px;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-family: monospace;
+} 
+.row-para{
+    font-size: 18px;
+    font-family: monospace;
+}
+/* main section with banner background styles */
+.main-bg{
+    width: 800px;
+    height: 300px;
+    background-color: antiquewhite;
+    margin: 40px auto;
+    background-image: linear-gradient(to right, rgba(110, 98, 98, 0.726), rgba(177, 153, 87, 0.644)), url("../images/watch.png");
+    border-radius: 7px;
+}
+.bg-text{
+    padding-left: 60px;
+    padding-top: 100px;
+    font-size: 30px;
+    color: white;
+}
+.bg-title{
+    margin-bottom: 20px;
 }
