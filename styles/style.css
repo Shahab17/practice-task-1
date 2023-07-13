@@ -91,8 +91,7 @@
 .main-bg{
     width: 800px;
     height: 300px;
-    background-color: antiquewhite;
-    margin: 40px auto;
+    margin: 60px auto;
     background-image: linear-gradient(to right, rgba(110, 98, 98, 0.726), rgba(177, 153, 87, 0.644)), url("../images/watch.png");
     border-radius: 7px;
 }
@@ -104,4 +103,40 @@
 }
 .bg-title{
     margin-bottom: 20px;
+}
+/* footer styles */
+.footer-container{
+    height: 500px;
+    background-color: #474747;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding-top: 130px;
+    color: rgba(240, 255, 255, 0.651);
+}
+.left-col{
+    width: 500px;
+
+}
+.right-col input{
+     padding-right: 100px;
+     padding: 15px 10px;
+     border-radius: 7px;
+     border: 0;
+     margin-bottom: 20px;
+     font-size: 10px;
+}
+.col-title{
+    margin-bottom: 25px;
+}
+.footer-para{
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: rgba(240, 255, 255, 0.836);
+    font-family: fantasy;
+}
+.footer-icons img{
+    margin-top: 40px;
+    margin-right: 25px;
+    cursor: pointer;
 }
