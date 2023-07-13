@@ -24,7 +24,6 @@
     padding-bottom: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #474747;
-
 }
 .banner-btn{
     font-size: 20px;
@@ -38,4 +37,25 @@
     background-color: aqua;
     cursor:grab;
 }
-/*  */
+/* main section styles */
+.container{
+    margin: 120px auto;
+    padding: 50px 80px 0 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    background-color: rgba(58, 78, 78, 0.301);
+    
+}
+.col-title{
+    font-size: 45px;
+    margin-bottom: 20px;
+    
+}
+.col-para{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #474747;
+    text-align: justify;
+}
