@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* banner section styles */
+.banner{
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/banner/banner1.png");  
+
+}
+.banner-text{   
+    text-align: right;
+    padding:  100px 200px 300px 600px;   
+}
+.banner-title{
+    font-size: 60px;
+}
+.banner-para{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #474747;
+
+}
+.banner-btn{
+    font-size: 20px;
+    padding: 10px 15px;
+    background:rgba(146, 104, 26, 0.836);
+    border-radius: 7px;
+    border: 0;
+    
+}
+.banner-btn:hover{
+    background-color: aqua;
+    cursor:grab;
+}
+/*  */
